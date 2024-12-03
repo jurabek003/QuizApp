@@ -167,5 +167,150 @@ final List<Question> questions = [
     ],
     correctAnswerIndex: 0,
   ),
-  // Qo'shimcha savollar shu tartibda davom ettiriladi
+    Question(
+    questionText: 'Qo‘shma tarmoqlar qanday ataladi?',
+    answers: ['WAN', 'LAN', 'VPN', 'MAN'],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'Firewall nima?',
+    answers: [
+      'Antivirus dasturi',
+      'Tarmoq xavfsizligi devori',
+      'Operatsion tizimning bir qismi',
+      'Fayllarni siqish dasturi'
+    ],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'BIOSning to‘liq nomi nima?',
+    answers: [
+      'Basic Input Output System',
+      'Binary Input Output System',
+      'Basic Internet Operation System',
+      'Basic Integrated Output System'
+    ],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'Proxy server nima vazifani bajaradi?',
+    answers: [
+      'DNS xizmatini ko‘rsatish',
+      'Ma\'lumotlarni filtrlash va tranzit qilish',
+      'Fayl siqish',
+      'Operatsion tizimni boshqarish'
+    ],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'SSD qanday qurilma?',
+    answers: [
+      'Operativ xotira',
+      'Tezkor saqlash qurilmasi',
+      'Monitor turi',
+      'Server turi'
+    ],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'HTTPS protokoli qanday afzallikka ega?',
+    answers: [
+      'Ma\'lumotlarni siqish',
+      'Xavfsiz uzatishni ta\'minlash',
+      'Fayllarni tez yuklash',
+      'Qo‘shimcha portlarni boshqarish'
+    ],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'Kompyuterning asosiy tezligi nimada o‘lchanadi?',
+    answers: ['Hertz', 'Bytes', 'Bits', 'Pixel'],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'SMTP va IMAP qaysi turdagi xizmatga tegishli?',
+    answers: ['Fayl uzatish', 'Elektron pochta', 'Veb sahifalar', 'DNS'],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'Kompyuter xavfsizligi uchun qaysi usul muhim?',
+    answers: [
+      'Parolni o‘rnatish',
+      'Antivirusdan foydalanish',
+      'Ma\'lumotlarni zaxiralash',
+      'Barchasi to‘g‘ri'
+    ],
+    correctAnswerIndex: 3,
+  ),
+  Question(
+    questionText: 'Ping komandasi qanday ishlaydi?',
+    answers: [
+      'Tarmoq ulanishini tekshiradi',
+      'Xotirani optimallashtiradi',
+      'Fayllarni siqadi',
+      'Operatsion tizimni tiklaydi'
+    ],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'Hozirgi operatsion tizimlardan qaysi biri ochiq manbali?',
+    answers: ['Windows', 'macOS', 'Linux', 'iOS'],
+    correctAnswerIndex: 2,
+  ),
+  Question(
+    questionText: 'Kompyuterning ichki xotirasi qanday ataladi?',
+    answers: ['Hard Disk', 'RAM', 'BIOS', 'SSD'],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'Ma\'lumotlarni siqish dasturi qaysi biri?',
+    answers: ['Excel', 'WinRAR', 'PowerPoint', 'Photoshop'],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'IPv6 manzillar necha bitdan iborat?',
+    answers: ['32 bit', '64 bit', '128 bit', '256 bit'],
+    correctAnswerIndex: 2,
+  ),
+  Question(
+    questionText: 'Kompyuterning elektr manbai qaysi qurilmaga tegishli?',
+    answers: ['PSU', 'BIOS', 'CPU', 'RAM'],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'Qo‘llanuvchi interfeysi qanday qisqartma bilan ataladi?',
+    answers: ['API', 'OS', 'UI', 'HTTP'],
+    correctAnswerIndex: 2,
+  ),
+  Question(
+    questionText: 'IP protokolida qaysi turdagi uzatish ishlatiladi?',
+    answers: ['Ma\'lumot paketi', 'Signallar', 'Tok', 'Analog uzatish'],
+    correctAnswerIndex: 0,
+  ),
+  Question(
+    questionText: 'Ko‘p funksiyali printerlar qanday ataladi?',
+    answers: ['Scanner', 'MFP', 'Fax', 'Server'],
+    correctAnswerIndex: 1,
+  ),
+  Question(
+    questionText: 'Kompyuterdagi fayl tizimi nima uchun ishlatiladi?',
+    answers: [
+      'Tarmoq ulanishini boshqarish',
+      'Kompyuter tezligini oshirish',
+      'Fayllarni tashkil qilish va boshqarish',
+      'Grafik interfeysni sozlash'
+    ],
+    correctAnswerIndex: 2,
+  ),
+  Question(
+    questionText: 'Kompyuterning asosiy vazifasi qaysi biri?',
+    answers: [
+      'Internetga ulanish',
+      'Parollarni saqlash',
+      'Videolarni ko‘rsatish',
+      'Ma\'lumotlarni qayta ishlash'
+    ],
+    correctAnswerIndex: 3,
+  ),
 ];
+

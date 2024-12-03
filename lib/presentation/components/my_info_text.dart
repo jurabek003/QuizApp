@@ -27,7 +27,7 @@ Widget MyInfoText(int correctAnswers) {
           ),
         ),
         TextSpan(
-          text: "siz berilgan 20 ta savollardan ",
+          text: "siz berilgan 40 ta savollardan ",
           style: TextStyle(fontSize: 19, fontWeight: FontWeight.w300,color: Colors.black),
         ),
         TextSpan(
